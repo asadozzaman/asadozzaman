@@ -19,5 +19,4 @@ Skills: Skills: HTML / CSS / REACT / JS / Python / Django / Machine Learning / N
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asadozzaman)](https://github.com/anuraghazra/github-readme-stats)
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=asadozzaman)  
 
