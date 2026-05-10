@@ -1,22 +1,25 @@
-![I am Django and Machine Learning Engineer](https://media.licdn.com/dms/image/D4D16AQGAc-7nEkWnxg/profile-displaybackgroundimage-shrink_350_1400/0/1691139473979?e=1696464000&v=beta&t=DFAKQsCXDcm3O8fYvsiYxNA39hHaNbvwBbsnXPGIaMg)
+
 
 ### Hi there 👋,  I'm asadozzaman
-#### I am Django and Machine Learning Engineer
+#### I am a Senior AI Engineer
 
+Senior AI Engineer with 5+ years of experience designing, training, and deploying production-grade Computer Vision and LLM systems for real-world applications.
 
-I am a Senior Software Engineer. I have been working as a full stack web developer with 4+ years of expertise in Python, Django, DjangoREST and React.Integration with third parties APIS,Payment Gateways(Stripe, Paypal),SMS/Email Integration (Twilio, Mailgun) for User account recovery and notifications.Deploying Projects on Aws, Heroku, Hostinger or any cloud service.
+My core expertise is in building end-to-end AI solutions, including:
+• Computer Vision pipelines (YOLO, Detectron2, Mask R-CNN, OpenCV) for detection, segmentation, and real-world measurement
+• LLM engineering and retrieval-augmented generation (RAG) systems for knowledge-driven and support applications
+• GPU-accelerated model training, optimization, and MLOps (mixed precision, quantization, pruning, and distributed training)
+• Scalable backend services and APIs (FastAPI, Django) deployed on AWS
 
-I got extensive Hands-on experience using Machine learning, Natural Language processing for 2+ years. Machine learning techniques Regression, SVM, k-NN, Decision Trees, Random Forests, Clustering, ANN, CNN, RNN, LSTM, GRU, Autoencoders, GANs, Transfer Learning, TensorFlow, Keras, PyTorch.NLP techniques, including Text Preprocessing, Word Embeddings, Classification, Sentiment Analysis, NER, POS Tagging, Dependency Parsing, Translation, Topic Modeling, Seq-to-Seq, Transformer Models.
+I’ve delivered applied AI systems that:
+• Achieved <5% real-world measurement error using camera calibration and segmentation-based pipelines
+• Enabled real-time GPU inference (20+ FPS) in production environments
+• Reduced inference latency and infrastructure cost through model optimization techniques
+• Integrated AI across web platforms, mobile applications, and edge devices (Flutter, Kotlin, Raspberry Pi)
 
-With a strong educational background in software engineering, I adhere to industry best practices and coding standards, ensuring efficient and scalable solutions. 
+My work spans the full lifecycle of production AI systems:
+data collection and preprocessing → model training → evaluation and optimization → cloud deployment → monitoring → API integration.
 
-
-Skills: Skills: HTML / CSS / REACT / JS / Python / Django / Machine Learning / NLP
-
-
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/asadozzaman)  
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asadozzaman)](https://github.com/anuraghazra/github-readme-stats)
+I focus on building practical AI systems where research, engineering, and business needs intersect — transforming experimental models into reliable, scalable production solutions.
 
 
