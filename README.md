@@ -1,25 +1,60 @@
+<img src="assets/production-vision.svg" width="100%" alt="Md. Asadozzaman — Senior AI Engineer. Production Computer Vision: detection, tracking, evaluation, and deployment." />
 
+I build computer vision systems that connect **models, video pipelines, validation, and cloud infrastructure**. My work spans 5+ years of applied AI and backend engineering, with a focus on making model outputs useful in real applications.
 
-### Hi there 👋,  I'm asadozzaman
-#### I am a Senior AI Engineer
+**Senior AI Engineer at Tau Research · Based in Dhaka, working remotely**
 
-Senior AI Engineer with 5+ years of experience designing, training, and deploying production-grade Computer Vision and LLM systems for real-world applications.
+[Explore the CVAT demo](https://asadozzaman.github.io/cvat-video-annotation-roundtrip/) · [LinkedIn](https://www.linkedin.com/in/md-asadozzaman/) · [Email](mailto:asadozzaman278061@gmail.com)
 
-My core expertise is in building end-to-end AI solutions, including:
-• Computer Vision pipelines (YOLO, Detectron2, Mask R-CNN, OpenCV) for detection, segmentation, and real-world measurement
-• LLM engineering and retrieval-augmented generation (RAG) systems for knowledge-driven and support applications
-• GPU-accelerated model training, optimization, and MLOps (mixed precision, quantization, pruning, and distributed training)
-• Scalable backend services and APIs (FastAPI, Django) deployed on AWS
+## Selected engineering work
 
-I’ve delivered applied AI systems that:
-• Achieved <5% real-world measurement error using camera calibration and segmentation-based pipelines
-• Enabled real-time GPU inference (20+ FPS) in production environments
-• Reduced inference latency and infrastructure cost through model optimization techniques
-• Integrated AI across web platforms, mobile applications, and edge devices (Flutter, Kotlin, Raspberry Pi)
+### 01 / Video analytics — from frames to inspectable results
 
-My work spans the full lifecycle of production AI systems:
-data collection and preprocessing → model training → evaluation and optimization → cloud deployment → monitoring → API integration.
+**[Production Video Analytics](https://github.com/asadozzaman/production-video-analytics)**
 
-I focus on building practical AI systems where research, engineering, and business needs intersect — transforming experimental models into reliable, scalable production solutions.
+YOLO detection and ByteTrack tracking behind typed interfaces, with annotated MP4, frame-level JSON, track CSV, and a run summary that records configuration and stage timings. Output publication distinguishes completed runs from partial files.
 
+- **Implemented:** detection, tracking, structured outputs, CPU execution, and focused unit tests.
+- **Recorded baseline:** 393 frames processed; the Step 5 report records 14.89 frames/s end to end on CPU. This is a single functional run, not a hardware comparison or accuracy result.
+- **Next milestone:** human-verified tracking evaluation, then line/zone counting and controlled CPU/GPU benchmarks.
 
+[Read the run evidence](https://github.com/asadozzaman/production-video-analytics/blob/main/docs/phase1_baseline.md) · [Inspect the design](https://github.com/asadozzaman/production-video-analytics/blob/main/docs/architecture.md)
+
+### 02 / Annotation integrity — verify the data before trusting the model
+
+**[CVAT Video Annotation Round Trip](https://github.com/asadozzaman/cvat-video-annotation-roundtrip)**
+
+A Python/API experiment that uploads a numbered video, writes a track, exports annotations, imports them into a clean task, and validates geometry and frame alignment.
+
+- **Recorded result:** 35/35 checks passed against CVAT 2.76.0.
+- **Evidence:** source and re-imported XML/API responses, validation JSON, and annotated frames.
+- **Scope:** one synthetic video and one rectangle track; frame-image alignment checked at frames 5, 10, and 20. This validates the annotation round trip, not tracker accuracy.
+
+[Open the visual walkthrough](https://asadozzaman.github.io/cvat-video-annotation-roundtrip/) · [Read the experiment](https://github.com/asadozzaman/cvat-video-annotation-roundtrip/blob/main/reports/CVAT_MINI_TEST_REPORT.md)
+
+## More systems work
+
+| Project | Engineering focus | Start here |
+| --- | --- | --- |
+| [Tree Counting](https://github.com/asadozzaman/Tree-counting-End-to-End) | Image upload, queued YOLO inference, job state, and downloadable results across Next.js, FastAPI, Redis, and PostgreSQL | [Architecture and local workflow](https://github.com/asadozzaman/Tree-counting-End-to-End#architecture) |
+| [CLEAR-RAG](https://github.com/asadozzaman/Evaluating-Production-Grade-RAG-Systems) | Retrieval metrics, automated evaluation, human review, experiment comparison, and readiness gates | [Workflow and limitations](https://github.com/asadozzaman/Evaluating-Production-Grade-RAG-Systems#current-product-notes) |
+| [Database Chat Assistant](https://github.com/asadozzaman/AI-Powered-Multi-Table-Database-Chat-Assistant) | Schema retrieval, foreign-key relationships, SQL validation, and an application around natural-language queries | [Implementation and screenshots](https://github.com/asadozzaman/AI-Powered-Multi-Table-Database-Chat-Assistant#screenshots) |
+
+These repositories show different stages of implementation. Each project's documentation separates working behavior, recorded experiments, and remaining work.
+
+## How I approach production AI
+
+- **Validate the inputs and outputs.** Frame indexing, annotation geometry, and result schemas deserve the same scrutiny as model metrics.
+- **Measure the whole pipeline.** Model inference speed and end-to-end processing speed answer different questions.
+- **Make decisions inspectable.** Keep effective settings, experiment evidence, failure cases, and limitations close to the code.
+- **Design clear boundaries.** Separate model inference, tracking, APIs, workers, and result storage so each can be tested and improved.
+
+## Core tools
+
+**Vision:** Python · PyTorch · YOLO · OpenCV · CVAT · ByteTrack
+
+**Systems:** FastAPI · Django · PostgreSQL · Redis · Docker
+
+**Cloud & AI:** AWS · SageMaker · RunPod · LLM/RAG evaluation
+
+For computer vision pipelines, annotation tooling, evaluation, or production AI integration, [send me a message](mailto:asadozzaman278061@gmail.com) with the problem, sample inputs, and the outcome you need.

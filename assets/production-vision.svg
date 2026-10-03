@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Md. Asadozzaman — Production Computer Vision</title>
+  <desc id="desc">Senior AI Engineer. Detection, tracking, evaluation, and deployment.</desc>
+  <rect width="1200" height="300" rx="18" fill="#0d1828"/>
+  <path d="M820 0V300M920 0V300M1020 0V300M1120 0V300M780 60H1200M780 160H1200M780 260H1200" stroke="#1a2b40" stroke-width="1"/>
+  <rect x="48" y="44" width="5" height="20" rx="2" fill="#69e0b8"/>
+  <text x="67" y="60" fill="#90a7bd" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="2">MD. ASADOZZAMAN / SENIOR AI ENGINEER</text>
+  <text x="48" y="128" fill="#f3f7fc" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Production</text>
+  <text x="48" y="183" fill="#f3f7fc" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">Computer Vision</text>
+  <text x="49" y="249" fill="#b3c5d8" font-family="Arial, Helvetica, sans-serif" font-size="20">Detection · Tracking · Evaluation · Deployment</text>
+  <rect x="850" y="83" width="128" height="139" rx="8" fill="#112d35" stroke="#315969" stroke-width="2"/>
+  <rect x="884" y="66" width="128" height="139" rx="8" fill="#12333b" stroke="#458a87" stroke-width="2"/>
+  <rect x="921" y="48" width="128" height="139" rx="8" fill="#153b41" stroke="#69e0b8" stroke-width="2"/>
+  <path d="M942 94V70H966M1004 70H1028V94M1028 141V165H1004M966 165H942V141" fill="none" stroke="#69e0b8" stroke-width="3"/>
+  <circle cx="985" cy="118" r="5" fill="#69e0b8"/>
+  <text x="857" y="253" fill="#69e0b8" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="3">BUILD. MEASURE. VERIFY.</text>
+</svg>
